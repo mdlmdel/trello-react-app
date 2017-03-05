@@ -1,9 +1,11 @@
 import React from 'react';
 
-export default function Card() {
+// This function shows you the text you typed in the form
+// This is a stateless component
+export default function Card({card}) {
   return (
     <div>
-    This is a card. 
+    {card}
     </div>
   )
 }
